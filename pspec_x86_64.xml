@@ -1,0 +1,57 @@
+<PISI>
+    <Source>
+        <Name>python-dotenv</Name>
+        <Packager>
+            <Name>Martin Bürge</Name>
+            <Email>martin.buerge@gmail.com</Email>
+        </Packager>
+        <License>Apache-2.0</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">Python-dotenv reads key-value pairs from a .env file and can set them as environment variables.</Summary>
+        <Description xml:lang="en">Python-dotenv reads key-value pairs from a .env file and can set them as environment variables. 
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-dotenv</Name>
+        <Summary xml:lang="en">Python-dotenv reads key-value pairs from a .env file and can set them as environment variables.</Summary>
+        <Description xml:lang="en">Python-dotenv reads key-value pairs from a .env file and can set them as environment variables. 
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/dotenv</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/dotenv/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/dotenv/__pycache__/__init__.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/dotenv/__pycache__/cli.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/dotenv/__pycache__/compat.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/dotenv/__pycache__/ipython.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/dotenv/__pycache__/main.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/dotenv/__pycache__/parser.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/dotenv/__pycache__/variables.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/dotenv/__pycache__/version.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/dotenv/cli.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/dotenv/compat.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/dotenv/ipython.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/dotenv/main.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/dotenv/parser.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/dotenv/py.typed</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/dotenv/variables.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/dotenv/version.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/python_dotenv-0.18.0-py3.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/python_dotenv-0.18.0-py3.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/python_dotenv-0.18.0-py3.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/python_dotenv-0.18.0-py3.7.egg-info/entry_points.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/python_dotenv-0.18.0-py3.7.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/python_dotenv-0.18.0-py3.7.egg-info/top_level.txt</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2021-06-28</Date>
+            <Version>0.18.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Martin Bürge</Name>
+            <Email>martin.buerge@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
