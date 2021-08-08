@@ -1,16 +1,17 @@
 name       : python-dotenv
 version    : 0.18.0
-release    : 1
+release    : 2
 source     :
     - https://pypi.python.org/packages/source/p/python-dotenv/python-dotenv-0.18.0.tar.gz : effaac3c1e58d89b3ccb4d04a40dc7ad6e0275fda25fd75ae9d323e2465e202d
 license    : Apache-2.0
 component  : programming.python
-summary    : Python-dotenv reads key-value pairs from a .env file and can set them as environment variables. 
-description: |
-    Python-dotenv reads key-value pairs from a .env file and can set them as environment variables. 
+summary    : Python-dotenv reads key-value pairs from a .env file and can set them
+    as environment variables.
+description: "Python-dotenv reads key-value pairs from a .env file and can set them\
+    \ as environment variables. \n"
 rundeps    :
     - python3
 build      : |
     %python3_setup
-install    : |
+install    : |-
     %python3_install
