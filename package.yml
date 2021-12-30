@@ -1,8 +1,8 @@
 name       : python-dotenv
-version    : 0.19.1
-release    : 3
+version    : 0.19.2
+release    : 4
 source     :
-    - https://github.com/theskumar/python-dotenv/archive/refs/tags/v0.19.1.tar.gz : 4857395ead2c459d6a8b580b0b64a4f6bcc28b09ee870fe53bcd707058e38366
+    - https://github.com/theskumar/python-dotenv/archive/refs/tags/v0.19.2.tar.gz : 8549c96bdf4559edb1fb952d8ef9b782e1d3628ee431df4f2c5f226969b1d259
 license    : Apache-2.0
 component  : programming.python
 summary    : Python-dotenv reads key-value pairs from a .env file and can set them as environment variables.
@@ -12,5 +12,5 @@ rundeps    :
     - python3
 build      : |
     %python3_setup
-install    : |-
+install    : |
     %python3_install
